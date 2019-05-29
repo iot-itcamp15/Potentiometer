@@ -1,6 +1,6 @@
 void setup() {
-  pinMode(A0,OUTPUT); //pinที่รับต้องเป็นpinที่สามารถรับค่าAnalogได้เท่านั้น
-  Serial.begin(115200); //set serialว่าจะให้มันแสดงค่าในช่วงไหน
+  pinMode(A0,INPUT); //pinที่รับต้องเป็นpinที่สามารถรับค่าAnalogได้เท่านั้น
+  Serial.begin(9600); //set serialว่าจะให้มันแสดงค่าในช่วงไหน
 }
 
 void loop() {
